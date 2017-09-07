@@ -1,0 +1,25 @@
+{
+    "name": "heyangdaren/frame_text",
+    "description": "this  is a demo",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "heyangdaren",
+            "email": "1070094383@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "app\\":"app/",
+            "core\\":"core/",
+            "system\\":"system/"
+        },
+        "files":[
+            "system/functions.php",
+            "system/config/database.php"
+        ]
+    }
+}
